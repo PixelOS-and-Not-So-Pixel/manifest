@@ -14,6 +14,9 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="eleven" />
 
+   <remote name="Twel12-gitlab"
+          fetch="https://gitlab.com/Twel12"/>
+
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
           revision="eleven" />
@@ -89,7 +92,7 @@
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="Twel12-gitlab" revision="11" /> />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
@@ -112,7 +115,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel">
+  <project path="build/make" name="build" remote="pixel-os">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
