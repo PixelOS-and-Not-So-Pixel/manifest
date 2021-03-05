@@ -93,6 +93,7 @@
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="vendor/apps/FaceUnlock" name="aosp-davinci/android_vendor_apps_FaceUnlock" remote="gitlab" revision="11.0"/>
+  <project path="external/exfat" name="external_exfat" remote="pixel" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
