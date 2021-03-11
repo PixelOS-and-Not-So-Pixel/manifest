@@ -29,6 +29,10 @@
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
+ 
+  <remote name="org"
+	  fetch="https://github.com/PixelOS-and-Not-So-Pixel"
+	  revision="eleven-plus" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
@@ -105,7 +109,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
+  <project path="frameworks/base" name="frameworks_base" remote="org" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -171,7 +175,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel-plus" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="org" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
@@ -184,7 +188,8 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-plus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
-
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="org" />	
+  
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
