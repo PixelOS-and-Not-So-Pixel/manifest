@@ -19,6 +19,10 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="eleven" />
 
+  <remote name="pixel-os"
+          fetch="https://github.com/PixelOS-and-Not-So-Pixel"
+          revision="eleven" />
+
   <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="eleven" />
@@ -119,7 +123,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel">
+  <project path="build/make" name="build" remote="pixel-os">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
