@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelOS-and-Not-So-Pixel/manifest -b eleven
+repo init -u https://github.com/PixelOS-and-Not-So-Pixel/manifest
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
